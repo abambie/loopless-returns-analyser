@@ -1,0 +1,52 @@
+# ── Python ────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg-info/
+.Python
+
+# ── Virtual environments ─────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+
+# ── ML artefacts (auto-generated when the model is trained) ──────────────
+models/*.joblib
+
+# ── Local databases ──────────────────────────────────────────────────────
+data/*.db
+data/*.sqlite
+data/*.sqlite3
+
+# ── Environment variables (never commit secrets) ─────────────────────────
+.env
+.env.local
+.env.*.local
+
+# ── IDE / editor folders ─────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ── Claude Code session state ────────────────────────────────────────────
+.claude/
+
+# ── OS junk ──────────────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Submission archive (regenerate when zipping) ─────────────────────────
+loopless_submission.zip
+test_unzip/
+
+# ── Logs ─────────────────────────────────────────────────────────────────
+*.log
+
+# ── Test and coverage artefacts ──────────────────────────────────────────
+.pytest_cache/
+.coverage
+htmlcov/

@@ -1,0 +1,58 @@
+{
+  "dataset": {
+    "rows": 2200,
+    "return_rate": 0.2718,
+    "test_rows": 440,
+    "random_state": 42
+  },
+  "classification": {
+    "logistic_regression": {
+      "accuracy": 0.6386,
+      "precision": 0.4,
+      "recall": 0.65,
+      "f1": 0.4952,
+      "roc_auc": 0.6707
+    },
+    "random_forest": {
+      "accuracy": 0.6682,
+      "precision": 0.386,
+      "recall": 0.3667,
+      "f1": 0.3761,
+      "roc_auc": 0.632
+    }
+  },
+  "clustering": {
+    "cluster_count": 4,
+    "silhouette_score": 0.2193,
+    "profiles": {
+      "0": {
+        "records": 560.0,
+        "return_rate": 0.3179,
+        "average_price": 154.4647,
+        "average_markdown": 10.9236,
+        "average_rating": 3.8438
+      },
+      "1": {
+        "records": 540.0,
+        "return_rate": 0.2,
+        "average_price": 69.3088,
+        "average_markdown": 8.1989,
+        "average_rating": 3.8348
+      },
+      "2": {
+        "records": 512.0,
+        "return_rate": 0.3594,
+        "average_price": 50.6497,
+        "average_markdown": 43.6949,
+        "average_rating": 3.8357
+      },
+      "3": {
+        "records": 588.0,
+        "return_rate": 0.2177,
+        "average_price": 64.2321,
+        "average_markdown": 8.3323,
+        "average_rating": 3.8369
+      }
+    }
+  }
+}
